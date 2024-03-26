@@ -1,4 +1,4 @@
-package com.vasanthvz.interviewpanel.manageiterviewer;
+package com.vasanthvz.interviewpanel.manageinterviewer;
 
 import com.vasanthvz.interviewpanel.datalayer.PanelDatabase;
 import com.vasanthvz.interviewpanel.model.Interviewer;
@@ -88,7 +88,7 @@ public class ManageInterviewerModel {
                 interviewer.setName(name);
             }
             if(! email.equals(")")){
-                if(panelDatabase.isInteriviewerEmailAvailable(email)){
+                if(panelDatabase.isInterviewerEmailAvailable(email)){
                     interviewer.setEmailId(email);
                 }else {
                     System.out.println("Email id already present");
@@ -100,6 +100,7 @@ public class ManageInterviewerModel {
     }
 
     private void viewAllInterviewer() {
+        System.out.println("Interviewer ID \t\t Name \t\t Email ID");
         for (Interviewer interviewer : panelDatabase.getInterviewerList()){
             manageInterviewerView.showText(interviewer.getId()+"\t\t"+
                     interviewer.getName() + "\t\t"+interviewer.getEmailId());

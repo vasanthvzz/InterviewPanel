@@ -1,10 +1,4 @@
-package com.vasanthvz.interviewpanel.manageiterviewer;
-
-import com.vasanthvz.interviewpanel.View;
-import com.vasanthvz.interviewpanel.interviewmenu.InterviewMenuView;
-
-
-
+package com.vasanthvz.interviewpanel.manageinterviewer;
 
 import com.vasanthvz.interviewpanel.View;
 import com.vasanthvz.interviewpanel.interviewmenu.InterviewMenuView;
