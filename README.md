@@ -16,4 +16,9 @@ Currently it has one actor that is admin who entry data of candidates and interv
 
 ## Output Screenshot
 
-
+![SS1](images/ip1.png)
+![SS2](images/ip2.png)
+![SS3](images/ip3.png)
+![SS4](images/ip4.png)
+![SS5](images/ip5.png)
+![SS6](images/ip6.png)
